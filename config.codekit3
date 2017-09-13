@@ -9,123 +9,198 @@
 	],
 "creatorBuild": "25900",
 "files": {
-	"\/images\/activate 2018 landing page.afdesign": {
+	"\/activate 2018.sublime-project": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/images\/activate 2018 landing page.afdesign",
+		"oAP": "\/activate 2018.sublime-project",
 		"oF": 0
 		},
-	"\/images\/favicons\/android-chrome-192x192.png": {
+	"\/activate 2018.sublime-workspace": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/activate 2018.sublime-workspace",
+		"oF": 0
+		},
+	"\/assets\/images\/activate 2018 landing page.afdesign": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/images\/activate 2018 landing page.afdesign",
+		"oF": 0
+		},
+	"\/assets\/images\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 11143,
 		"oA": 0,
-		"oAP": "\/images\/favicons\/android-chrome-192x192.png",
+		"oAP": "\/assets\/images\/favicons\/android-chrome-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/favicons\/android-chrome-512x512.png": {
+	"\/assets\/images\/favicons\/android-chrome-512x512.png": {
 		"ft": 32768,
 		"iS": 27210,
 		"oA": 0,
-		"oAP": "\/images\/favicons\/android-chrome-512x512.png",
+		"oAP": "\/assets\/images\/favicons\/android-chrome-512x512.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/favicons\/apple-touch-icon.png": {
+	"\/assets\/images\/favicons\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 10389,
 		"oA": 0,
-		"oAP": "\/images\/favicons\/apple-touch-icon.png",
+		"oAP": "\/assets\/images\/favicons\/apple-touch-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/favicons\/browserconfig.xml": {
+	"\/assets\/images\/favicons\/browserconfig.xml": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/images\/favicons\/browserconfig.xml",
+		"oAP": "\/assets\/images\/favicons\/browserconfig.xml",
 		"oF": 0
 		},
-	"\/images\/favicons\/favicon-16x16.png": {
+	"\/assets\/images\/favicons\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 1227,
 		"oA": 0,
-		"oAP": "\/images\/favicons\/favicon-16x16.png",
+		"oAP": "\/assets\/images\/favicons\/favicon-16x16.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/favicons\/favicon-32x32.png": {
+	"\/assets\/images\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1667,
 		"oA": 0,
-		"oAP": "\/images\/favicons\/favicon-32x32.png",
+		"oAP": "\/assets\/images\/favicons\/favicon-32x32.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/favicons\/favicon.ico": {
+	"\/assets\/images\/favicons\/favicon.ico": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/images\/favicons\/favicon.ico",
+		"oAP": "\/assets\/images\/favicons\/favicon.ico",
 		"oF": 0
 		},
-	"\/images\/favicons\/favicon.png": {
+	"\/assets\/images\/favicons\/favicon.png": {
 		"ft": 32768,
 		"iS": 32269,
 		"oA": 0,
-		"oAP": "\/images\/favicons\/favicon.png",
+		"oAP": "\/assets\/images\/favicons\/favicon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/favicons\/manifest.json": {
+	"\/assets\/images\/favicons\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/images\/favicons\/manifest-min.json",
+		"oAP": "\/assets\/images\/favicons\/manifest-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/images\/favicons\/mstile-150x150.png": {
+	"\/assets\/images\/favicons\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 7716,
 		"oA": 0,
-		"oAP": "\/images\/favicons\/mstile-150x150.png",
+		"oAP": "\/assets\/images\/favicons\/mstile-150x150.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/favicons\/safari-pinned-tab.svg": {
+	"\/assets\/images\/favicons\/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/favicons\/safari-pinned-tab.svg",
+		"oAP": "\/assets\/images\/favicons\/safari-pinned-tab.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/web-temp.ai": {
+	"\/assets\/images\/web-temp.ai": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/images\/web-temp.ai",
+		"oAP": "\/assets\/images\/web-temp.ai",
+		"oF": 0
+		},
+	"\/assets\/scripts\/scripts.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/scripts\/min\/scripts-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/styles\/fonts\/fonts.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/assets\/styles\/fonts\/fonts.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/assets\/styles\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/styles\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/styles\/styles.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/styles\/styles.css.map",
+		"oF": 0
+		},
+	"\/assets\/styles\/styles.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/assets\/styles\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/humans.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/humans.txt",
 		"oF": 0
 		},
 	"\/index.html": {
@@ -154,7 +229,7 @@
 		},
 	"\/kits\/file-begin.html": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/kits\/file-begin.html",
 		"oF": 0
 		},
@@ -166,7 +241,7 @@
 		},
 	"\/kits\/file-end.html": {
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/kits\/file-end.html",
 		"oF": 0
 		},
@@ -174,6 +249,30 @@
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/kits\/file-end.html",
+		"oF": 0
+		},
+	"\/kits\/hero-header.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kits\/hero-header.html",
+		"oF": 0
+		},
+	"\/kits\/hero-header.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/kits\/hero-header.html",
+		"oF": 0
+		},
+	"\/kits\/main-body.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kits\/main-body.html",
+		"oF": 0
+		},
+	"\/kits\/main-body.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/kits\/main-body.html",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -193,6 +292,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/robots.txt",
+		"oF": 0
 		}
 	},
 "hooks": [

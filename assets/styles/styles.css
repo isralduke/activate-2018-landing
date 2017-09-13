@@ -1,0 +1,113 @@
+.box, .h1, .h2 {
+  border: 4px solid #ffffff;
+  padding: 10px;
+  background-color: transparent; }
+  @media screen and (min-width: 768px) {
+    .box, .h1, .h2 {
+      font-size: 95px;
+      padding: 20px; } }
+
+.position-relative, .h2 {
+  position: relative; }
+
+.position-absolute, .badge {
+  position: absolute; }
+
+.text-center, .h1 {
+  text-align: center; }
+
+.text-hidden {
+  font-size: 0;
+  text-indent: -99999;
+  width: 0;
+  height: 0; }
+
+.text-upper, .h1 {
+  text-transform: uppercase; }
+
+.text-blue, .badge {
+  color: #073C5E; }
+
+.text-orange, .sup {
+  color: #F47621; }
+
+.text-white, .h1, .h2 {
+  color: #ffffff; }
+
+.background-orange, .badge {
+  background-color: #F47621; }
+
+.background-teal, .header {
+  background-color: #13AFB5; }
+
+.background-white {
+  background-color: #ffffff; }
+
+.push-end {
+  margin-left: auto; }
+
+.h1 {
+  margin: 0;
+  font-size: 60px; }
+  @media screen and (min-width: 768px) {
+    .h1 {
+      font-size: 95px; } }
+
+.h2 {
+  margin: -4px 0 0;
+  font-size: 20px; }
+
+@media screen and (min-width: 768px) {
+  .about {
+    margin-right: 52px;
+    margin-left: auto; } }
+
+@media screen and (min-width: 1024px) {
+  .about {
+    margin-right: 120px;
+    margin-left: auto; } }
+
+body {
+  font-size: 20px;
+  overflow: hidden; }
+
+.header {
+  padding: 60px 0 120px;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+  -moz-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+  -ms-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+  -o-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%); }
+  @media screen and (min-width: 768px) {
+    .header {
+      padding: 160px 0 200px; } }
+
+.badge {
+  font-size: 30px;
+  line-height: .875;
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  right: -20%;
+  top: -25%; }
+  @media screen and (min-width: 768px) {
+    .badge {
+      font-size: 40px;
+      width: 120px;
+      height: 120px;
+      right: -25%;
+      top: -25%; } }
+/*# sourceMappingURL=styles.css.map */

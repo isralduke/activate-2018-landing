@@ -1,0 +1,415 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"t",
+				"transparent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.kit",
+			"settings":
+			{
+				"buffer_size": 118,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kits/hero-header.kit",
+			"settings":
+			{
+				"buffer_size": 429,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2023,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "humans.txt",
+			"settings":
+			{
+				"buffer_size": 372,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kits/favicons.kit",
+			"settings":
+			{
+				"buffer_size": 604,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "pac",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/isral/repos/activate-2018-landing",
+		"/Users/isral/repos/activate-2018-landing/kits"
+	],
+	"file_history":
+	[
+		"/Users/isral/repos/activate-2018-landing/kits/file-begin.kit",
+		"/Users/isral/repos/activate-2018-landing/kits/file-end.kit",
+		"/Users/isral/repos/duke-strings/_themes/jivka/layouts/default.html",
+		"/Users/isral/repos/duke-strings/_content/6-estimate/page.md",
+		"/Users/isral/repos/duke-strings/_themes/jivka/js/jivka.js",
+		"/Users/isral/repos/duke-strings/_themes/jivka/layouts/music-estimate.html",
+		"/Users/isral/repos/duke-strings/_themes/jivka/templates/music-estimate.html",
+		"/Users/isral/repos/duke-strings/_content/_6-estimate/page.md",
+		"/Users/isral/repos/duke-strings/_config/settings.yaml",
+		"/Users/isral/repos/duke-strings/_themes/jivka/layouts/music-estimate-google-form.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/shop/index.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/shop/_product.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/shop/cart.html",
+		"/Users/isral/Library/Caches/Cleanup At Startup/Transmit/717081CF-2CB0-4BB7-B585-60B582079601/style.css",
+		"/Users/isral/Library/Caches/Cleanup At Startup/Transmit/2B76E98A-37C7-4FD1-98EF-2D9BF19B2161/layout.css",
+		"/Users/isral/Library/Caches/Cleanup At Startup/Transmit/F512561D-CF7B-4FD6-8F77-666731056B92/style.css",
+		"/Users/isral/Library/Caches/Cleanup At Startup/Transmit/D9352660-DB56-4F3E-8D6F-6A773D9B9E09/footer.php",
+		"/Users/isral/Dropbox/xfer/managedmeals.publicsite/front-end-start/styles/styles.scss",
+		"/Users/isral/repos/crafty-brew/craft/templates/recipes/_entry.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/recipes/index.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/_layout.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/about/index.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/about/_entry.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/news/index.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/index.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/brews/_entry.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/brews/index.html",
+		"/Users/isral/repos/crafty-brew/craft/templates/news/_entry.html",
+		"/Users/isral/repos/crafty-brew/craft/config/general.php",
+		"/Users/isral/repos/crafty-brew/SQL Dump 02-04-2017-21-30.sql",
+		"/Users/isral/repos/crafty-brew/craft/config/db.php",
+		"/Users/isral/Dropbox/clients boxes/InGaugeIT/IGI Site and App/Web App/notizen/Responsive Nav/responsive-nav.js-master/CONTRIBUTING.md",
+		"/Users/isral/Desktop/ind.html",
+		"/Users/isral/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/isral/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"store/cart",
+			"cache",
+			"important"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.kit",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "kits/hero-header.kit",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2023
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Craft-Twig/Syntaxes/Craft-Twig.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "humans.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								330,
+								330
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "kits/favicons.kit",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604,
+								604
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "activate 2018.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
