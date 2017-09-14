@@ -7,18 +7,7 @@ $white: #ffffff;
 $rem: 20px;
 $spacer: 20px;
 
-// mixins
-
-//generic
-.box {
-	border: 4px solid $white;
-	padding: $spacer*.5; 
-	background-color: transparent;
-	@media screen and (min-width: 768px){
-		font-size: $rem * 4.75;
-		padding: $spacer; 
-	}
-}
+// shared rules
 .position-relative {
 	position: relative;
 }
@@ -32,6 +21,9 @@ $spacer: 20px;
 	font-size: 0;
 	text-indent: -99999;
 	width: 0; height: 0;
+}
+.text-decoration-none {
+	text-decoration: none!important;
 }
 .text-upper {
 	text-transform: uppercase;
@@ -58,24 +50,63 @@ $spacer: 20px;
 .push-end {
 	margin-left: auto;
 }
-// specific
+
+// mixins
+
+$transition-base: 250ms ease-out all;
+@mixin border( $width, $style, $color){
+	border-width: $width;
+	border-style: $style;
+	border-color: $color;
+}
+@mixin hover( $bgc, $c, $bc ) {
+	@extend .text-decoration-none;
+	transition: $transition-base;
+	&:hover, &:active {
+		background-color: $bgc;
+		color: $c;
+		border-color: $bc;
+	}
+}
+
+//generic
+
+
+a {
+	@extend .text-decoration-none;
+}
+.h1, .h2 {
+	@extend .position-relative;
+	@extend .text-white;
+	@include border(3px, solid, $white);
+	padding: $spacer*.5; 
+	background-color: transparent;
+	@media screen and (min-width: 768px){
+		font-size: $rem * 4.75;
+		padding: $spacer; 
+	}
+	@media screen and (min-width: 1024px){
+		padding: $spacer*2; 
+	}
+}
 .h1 {
 	@extend .text-upper;
-	@extend .text-white;
 	@extend .text-center;
-	@extend .box;
 	margin: 0;
-	font-size: $rem * 3;
+	font-size: $rem * 2.5;
+	@media screen and (min-width: 599px){
+		font-size: $rem * 3;
+	} 
 	@media screen and (min-width: 768px){
 		font-size: $rem * 4.75;
 	}
 }
 .h2 {
-	@extend .text-white;
-	@extend .position-relative;
-	@extend .box;
-	margin: -4px 0 0;
+	margin: -3px 0 0;
 	font-size: $rem;
+	@media screen and ( min-width: 1024px ){
+		padding-right: $spacer*6;
+	}
 }
 .about {
 
@@ -119,21 +150,78 @@ body {
 	@extend .position-absolute;
 	font-size: $rem*1.5;
 	line-height: .875;
-	width: 100px; height: 100px;
+	width: 64px; height: 64px;
 	border-radius: 60px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	transform: translateY(50%);
-	right: -20%; top: -25%;
-
+	right: -5%; top: 50%;
+	z-index: 10;
+	@media screen and (min-width: 499px){
+		width: 72px; height: 72px;
+		right: -15%; top: 50%;
+	}
 	@media screen and (min-width: 768px){
 		font-size: $rem*2;
-		width: 120px; height: 120px;
-		right: -25%; top: -25%;
+		width: 96px; height: 96px;
+		right: -20%; top: 45%;
 	}
 	@media screen and (min-width: 1024px){
+		font-size: $rem*2.5;
+		width: 128px; height: 128px;
+		right: 5%; top: 50%;
+	}
+}
+.button {	
+	&-row {
+		display: flex;
+		flex-direction: column;
 		
+		@media screen and (min-width: 599px){
+			flex-direction: row;
+			justify-content: space-around;
+		}
+		@media screen and (min-width: 768px){
+			
+		}
+		@media screen and (min-width: 1024px){
+			
+		}
+	}
+	&-button {
+		@extend .position-relative;
+		background: $white;
+		@include border(3px, solid, $blue);
+		@extend .text-center;
+		padding: $spacer*.5 0; margin: $spacer*2 0 0;
+		@include hover($orange, $white, $orange);
+		@media screen and (min-width: 499px){
+			padding: $spacer;	
+		}
+	}
+}
+.skew {
+	position: absolute;
+	transform: skew(30deg, 0);
+	.h1 &, .h2 & {
+		background-color: $blue;
+		width: calc( 100% + 5px );
+	}
+	.h1 & {
+		bottom: -33px; left: 4px;
+		height: 30px;
+	}
+	.h2 & {
+		height: 20px;
+		bottom: -23px; left: 4px;
+	}
+	.button-button & {
+		background-color: $orange;
+		bottom: -17px; left: 1px;
+		width: calc( 100% + 6px ); height: 14px;
+		@media (-webkit-min-device-pixel-ration:2){
+			width: calc( 100% + 6.5px )
+		}
 	}
 }
