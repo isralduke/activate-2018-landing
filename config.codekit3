@@ -27,6 +27,26 @@
 		"oAP": "\/assets\/images\/activate 2018 landing page.afdesign",
 		"oF": 0
 		},
+	"\/assets\/images\/dot-blue.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/dot-blue.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/dot-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/dot-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 11143,
@@ -129,6 +149,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/images\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/header.jpg": {
+		"ft": 16384,
+		"iS": 219082,
+		"oA": 0,
+		"oAP": "\/assets\/images\/header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/rocket-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/rocket-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
