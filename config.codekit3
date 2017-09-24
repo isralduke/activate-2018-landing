@@ -21,6 +21,210 @@
 		"oAP": "\/activate 2018.sublime-workspace",
 		"oF": 0
 		},
+	"\/assets\/fonts\/Panton-Black.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-Black.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-BlackItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-BlackItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-Bold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-Bold.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-BoldItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-BoldItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-ExtraBold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-ExtraBold.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-ExtraBoldItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-ExtraBoldItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-ExtraLight.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-ExtraLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-ExtraLightItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-ExtraLightItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-Heavy.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-Heavy.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-HeavyItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-HeavyItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-Light.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-Light.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-LightItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-LightItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-Regular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-Regular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-RegularItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-RegularItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-SemiBold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-SemiBold.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-SemiBoldItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-SemiBoldItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-Thin.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-Thin.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Panton-ThinItalic.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Panton-ThinItalic.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-AFillLight.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-AFillLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-AFillRegular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-AFillRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-ALight.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-ALight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-ARegular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-ARegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-BFillLight.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-BFillLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-BFillRegular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-BFillRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-BLight.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-BLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-BRegular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-BRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-CFillLight.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-CFillLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-CFillRegular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-CFillRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-CLight.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-CLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-CRegular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-CRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-DFillLight.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-DFillLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-DFillRegular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-DFillRegular.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-DLight.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-DLight.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/PantonIcons-DRegular.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/PantonIcons-DRegular.otf",
+		"oF": 0
+		},
 	"\/assets\/images\/activate 2018 landing page.afdesign": {
 		"ft": 8192,
 		"oA": 2,
