@@ -7,6 +7,8 @@ $white: #ffffff;
 $rem: 20px;
 $spacer: 20px;
 
+$zindex: 10;
+
 // shared rules
 .position-relative {
 	position: relative;
@@ -81,6 +83,8 @@ a {
 	@include border(3px, solid, $white);
 	padding: $spacer*.5; 
 	background-color: fade-out($teal, .5);
+	position: relative;
+	z-index: 9999;
 	@media screen and (min-width: 768px){
 		font-size: $rem * 4.75;
 		padding: $spacer; 
@@ -129,9 +133,10 @@ body {
 	font-size: $rem;
 	position: relative;
 	padding-bottom: 40px;
+	overflow-x: hidden;
 }
 main {
-	
+	z-index: 9999;
 }
 .header {
 	background-color: $teal;
@@ -144,6 +149,7 @@ main {
 	-ms-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
 	-o-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+	position: relative;
 	@media screen and (min-width: 768px){
 		padding: $spacer*8 0 $spacer*10;
 	}
@@ -209,56 +215,6 @@ main {
 		}
 	}
 }
-.skew {
-	position: absolute;
-	&-bottom-blue, &-bottom-orange {
-		transform: skew(30deg, 0);
-	}
-	&-bottom-blue {
-		background-color: $blue;
-		width: calc( 100% + 8px );
-		.h1 & {
-			bottom: -33px; left: 4px;
-			height: 30px;
-		}
-		.h2 & {
-			height: 18px;
-			bottom: -21px; left: 4px;
-			width: calc( 100% + 4px );
-		}
-	}
-	&-bottom-orange {
-		background-color: $orange;
-		bottom: -19px; left: 1px;
-		width: calc( 100% + 7px ); height: 16px;
-		@media (-webkit-min-device-pixel-ration:2){
-			width: calc( 100% + 4px )
-		}
-	}
-	&-right-side-white, &-right-side-blue {
-		transform: skew(0, 60deg);
-	} 
-	&-right-side-white {
-		background-color: $white;
-		right: -23px; top: 14px;
-		.h1 & {
-			right: -21px; top: 13px;
-			width: 18px; height: calc(100% + 5px);
-		}
-		.h2 & {
-			width: 11px; height: calc(100% + 6px);
-			right: -13px; top: 6px;
-		}
-	}
-	&-right-side-blue {
-		background-color: $blue;
-		right: -12px; top: 5px;
-		height: calc(100% + 6px);
-		width: 9px;
-	}
-	
-	
-}
 .light-blue-box {
 	background-color: fade-out($blue, .85);
 	position: absolute;
@@ -275,5 +231,108 @@ main {
 	}
 	@media screen and ( min-width: 1024px ){
 		height: 350px;
+	}
+}
+.white-plusses {
+	width: 200px; height: 312px;
+	position: absolute;
+	top: 40px; left: -168px;
+	background-color: transparent;
+	background-repeat: repeat;
+	background-image: url('../images/white-plusses.svg');
+	z-index: 10;
+	@media screen and ( min-width: 499px ){
+		
+	}
+	@media screen and ( min-width: 599px ){
+		
+	}
+	@media screen and ( min-width: 768px ){
+		
+	}
+	@media screen and ( min-width: 1024px ){
+		top: 60px; left: -83px;
+	}
+	@media screen and ( min-width: 1280px ){
+		
+	}
+}
+.orange-plusses {
+	width: 200px; height: 312px;
+	position: absolute;
+	top: 40px; right: -168px;
+	background-color: transparent;
+	background-repeat: repeat;
+	background-image: url('../images/orange-plusses.svg');
+	z-index: 10;
+	@media screen and ( min-width: 499px ){
+		
+	}
+	@media screen and ( min-width: 599px ){
+		
+	}
+	@media screen and ( min-width: 768px ){
+		top: 350px;
+	}
+	@media screen and ( min-width: 1024px ){
+		top: 480px; right: -160px;
+	}
+	@media screen and ( min-width: 1280px ){
+		right: -100px;
+	}
+}
+.orange-arrow {
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	left: 200px; top: 228px;
+	width: 166px; height: 86px;
+	background-image: url('../images/orange-arrow.svg');
+	z-index: 10;
+	@media screen and ( min-width: 499px ){
+		left: 40px; top: 70px;
+	}
+	@media screen and ( min-width: 599px ){
+		
+	}
+	@media screen and ( min-width: 768px ){
+		
+	}
+	@media screen and ( min-width: 1024px ){
+		left: 40px; top: 220px;
+	}
+	@media screen and ( min-width: 1280px ){
+		
+	}
+	@media screen and ( min-width: 1280px ){
+		
+	}
+}
+.laptop {
+	position: absolute;
+	bottom: 20px; left: 100%;
+	transform: translateX(-50%);
+	width: 175px; height: 124px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('../images/laptop.svg');
+	z-index: 10;
+	@media screen and ( min-width: 499px ){
+		top: 345px; bottom: unset; left: 130px;
+	}
+	@media screen and ( min-width: 599px ){
+		
+	}
+	@media screen and ( min-width: 768px ){
+		
+	}
+	@media screen and ( min-width: 1024px ){
+		top: 445px; left: 200px;
+	}
+	@media screen and ( min-width: 1280px ){
+		
+	}
+	@media screen and ( min-width: 1280px ){
+		
 	}
 }

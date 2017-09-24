@@ -45,7 +45,9 @@
   border-style: solid;
   border-color: #ffffff;
   padding: 10px;
-  background-color: rgba(19, 175, 181, 0.5); }
+  background-color: rgba(19, 175, 181, 0.5);
+  position: relative;
+  z-index: 9999; }
   @media screen and (min-width: 768px) {
     .h1, .h2 {
       font-size: 95px;
@@ -84,7 +86,11 @@
 body {
   font-size: 20px;
   position: relative;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  overflow-x: hidden; }
+
+main {
+  z-index: 9999; }
 
 .header {
   background-color: #13AFB5;
@@ -96,7 +102,8 @@ body {
   -moz-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
   -ms-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
   -o-clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%); }
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+  position: relative; }
   @media screen and (min-width: 768px) {
     .header {
       padding: 160px 0 200px; } }
@@ -182,56 +189,6 @@ body {
     .button-button {
       padding: 20px; } }
 
-.skew {
-  position: absolute; }
-  .skew-bottom-blue, .skew-bottom-orange {
-    -webkit-transform: skew(30deg, 0);
-            transform: skew(30deg, 0); }
-  .skew-bottom-blue {
-    background-color: #073C5E;
-    width: calc( 100% + 8px); }
-    .h1 .skew-bottom-blue {
-      bottom: -33px;
-      left: 4px;
-      height: 30px; }
-    .h2 .skew-bottom-blue {
-      height: 18px;
-      bottom: -21px;
-      left: 4px;
-      width: calc( 100% + 4px); }
-  .skew-bottom-orange {
-    background-color: #F47621;
-    bottom: -19px;
-    left: 1px;
-    width: calc( 100% + 7px);
-    height: 16px; }
-    @media (-webkit-min-device-pixel-ration: 2) {
-      .skew-bottom-orange {
-        width: calc( 100% + 4px); } }
-  .skew-right-side-white, .skew-right-side-blue {
-    -webkit-transform: skew(0, 60deg);
-            transform: skew(0, 60deg); }
-  .skew-right-side-white {
-    background-color: #ffffff;
-    right: -23px;
-    top: 14px; }
-    .h1 .skew-right-side-white {
-      right: -21px;
-      top: 13px;
-      width: 18px;
-      height: calc(100% + 5px); }
-    .h2 .skew-right-side-white {
-      width: 11px;
-      height: calc(100% + 6px);
-      right: -13px;
-      top: 6px; }
-  .skew-right-side-blue {
-    background-color: #073C5E;
-    right: -12px;
-    top: 5px;
-    height: calc(100% + 6px);
-    width: 9px; }
-
 .light-blue-box {
   background-color: rgba(7, 60, 94, 0.15);
   position: absolute;
@@ -245,4 +202,81 @@ body {
   @media screen and (min-width: 1024px) {
     .light-blue-box {
       height: 350px; } }
+
+.white-plusses {
+  width: 200px;
+  height: 312px;
+  position: absolute;
+  top: 40px;
+  left: -168px;
+  background-color: transparent;
+  background-repeat: repeat;
+  background-image: url("../images/white-plusses.svg");
+  z-index: 10; }
+  @media screen and (min-width: 1024px) {
+    .white-plusses {
+      top: 60px;
+      left: -83px; } }
+
+.orange-plusses {
+  width: 200px;
+  height: 312px;
+  position: absolute;
+  top: 40px;
+  right: -168px;
+  background-color: transparent;
+  background-repeat: repeat;
+  background-image: url("../images/orange-plusses.svg");
+  z-index: 10; }
+  @media screen and (min-width: 768px) {
+    .orange-plusses {
+      top: 350px; } }
+  @media screen and (min-width: 1024px) {
+    .orange-plusses {
+      top: 480px;
+      right: -160px; } }
+  @media screen and (min-width: 1280px) {
+    .orange-plusses {
+      right: -100px; } }
+
+.orange-arrow {
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 200px;
+  top: 228px;
+  width: 166px;
+  height: 86px;
+  background-image: url("../images/orange-arrow.svg");
+  z-index: 10; }
+  @media screen and (min-width: 499px) {
+    .orange-arrow {
+      left: 40px;
+      top: 70px; } }
+  @media screen and (min-width: 1024px) {
+    .orange-arrow {
+      left: 40px;
+      top: 220px; } }
+
+.laptop {
+  position: absolute;
+  bottom: 20px;
+  left: 100%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 175px;
+  height: 124px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/laptop.svg");
+  z-index: 10; }
+  @media screen and (min-width: 499px) {
+    .laptop {
+      top: 345px;
+      bottom: unset;
+      left: 130px; } }
+  @media screen and (min-width: 1024px) {
+    .laptop {
+      top: 445px;
+      left: 200px; } }
 /*# sourceMappingURL=styles.css.map */
