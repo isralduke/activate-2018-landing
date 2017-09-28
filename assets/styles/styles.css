@@ -1,10 +1,10 @@
-.position-relative, .h1, .h2, .button-button {
+.position-relative, .h1, .h2 {
   position: relative; }
 
 .position-absolute, .badge {
   position: absolute; }
 
-.text-center, .h1, .button-button {
+.text-center, .h1 {
   text-align: center; }
 
 .text-hidden {
@@ -13,7 +13,7 @@
   width: 0;
   height: 0; }
 
-.text-decoration-none, a, .button-button {
+.text-decoration-none, a {
   text-decoration: none !important; }
 
 .text-upper, .h1 {
@@ -83,11 +83,13 @@
     margin-right: 120px;
     margin-left: auto; } }
 
+html, body {
+  overflow-x: hidden; }
+
 body {
   font-size: 20px;
   position: relative;
-  padding-bottom: 40px;
-  overflow-x: hidden; }
+  padding-bottom: 40px; }
 
 main {
   z-index: 9999; }
@@ -166,28 +168,34 @@ main {
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row;
-      -ms-flex-pack: distribute;
-          justify-content: space-around; } }
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -ms-flex-line-pack: start;
+          align-content: flex-start; } }
 
 .button-button {
-  background: #ffffff;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #073C5E;
-  padding: 10px 0;
-  margin: 40px 0 0;
-  -webkit-transition: 250ms ease-out all;
-  transition: 250ms ease-out all; }
-  .button-button:hover, .button-button:active {
-    background-color: #F47621;
-    color: #ffffff;
-    border-color: #F47621; }
+  margin: 20px 20px 0; }
   @media screen and (min-width: 768px) {
+    .button-button:last-of-type {
+      margin: 20px auto;
+      width: 442px;
+      height: 99px; } }
+  @media screen and (min-width: 1280px) {
     .button-button {
-      padding: 10px; } }
-  @media screen and (min-width: 1024px) {
-    .button-button {
-      padding: 20px; } }
+      height: 99px;
+      width: auto;
+      margin: 20px auto; } }
+
+.button-img {
+  display: block;
+  width: 100%;
+  height: auto; }
 
 .light-blue-box {
   background-color: rgba(7, 60, 94, 0.15);
@@ -198,10 +206,7 @@ main {
   left: 0; }
   @media screen and (min-width: 768px) {
     .light-blue-box {
-      height: 350px; } }
-  @media screen and (min-width: 1024px) {
-    .light-blue-box {
-      height: 350px; } }
+      height: 400px; } }
 
 .white-plusses {
   width: 200px;
@@ -233,8 +238,8 @@ main {
       top: 350px; } }
   @media screen and (min-width: 1024px) {
     .orange-plusses {
-      top: 480px;
-      right: -160px; } }
+      top: 400px;
+      right: -100px; } }
   @media screen and (min-width: 1280px) {
     .orange-plusses {
       right: -100px; } }
@@ -279,4 +284,32 @@ main {
     .laptop {
       top: 445px;
       left: 200px; } }
+  @media screen and (min-width: 1280px) {
+    .laptop {
+      left: 250px; } }
+
+.watch {
+  background-image: url("../images/watch.svg");
+  width: 59px;
+  height: 93px;
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  z-index: 10; }
+  @media screen and (min-width: 375px) {
+    .watch {
+      top: 240px;
+      left: 60px; } }
+  @media screen and (min-width: 768px) {
+    .watch {
+      top: 480px;
+      left: 660px; } }
+  @media screen and (min-width: 1024px) {
+    .watch {
+      top: 500px;
+      left: 760px; } }
+  @media screen and (min-width: 1280px) {
+    .watch {
+      top: 550px;
+      left: 1050px; } }
 /*# sourceMappingURL=styles.css.map */

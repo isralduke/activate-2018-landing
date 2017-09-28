@@ -39,7 +39,6 @@ $zindex: 10;
 .text-white {
 	color: $white;
 }
-
 .background-orange {
 	background-color: $orange;
 }
@@ -129,11 +128,14 @@ a {
 .sup {
 	@extend .text-orange;
 }
+html, body {
+	overflow-x: hidden;
+}
 body {
 	font-size: $rem;
 	position: relative;
 	padding-bottom: 40px;
-	overflow-x: hidden;
+	
 }
 main {
 	z-index: 9999;
@@ -194,25 +196,31 @@ main {
 		flex-direction: column;
 		@media screen and (min-width: 768px){
 			flex-direction: row;
-			justify-content: space-around;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: flex-start;
+			align-content: flex-start;
 		}
 		@media screen and (min-width: 1024px){
 			
 		}
 	}
 	&-button {
-		@extend .position-relative;
-		background: $white;
-		@include border(3px, solid, $blue);
-		@extend .text-center;
-		padding: $spacer*.5 0; margin: $spacer*2 0 0;
-		@include hover($orange, $white, $orange);
+		margin: $spacer $spacer 0;
 		@media screen and (min-width: 768px){
-			padding: $spacer*.5;	
+			&:last-of-type {
+				margin: $spacer auto;
+				width: 442px; height: 99px;
+			}
 		}
-		@media screen and (min-width: 1024px){
-			padding: $spacer;	
+		@media screen and (min-width: 1280px){
+			height: 99px; width: auto;
+			margin: $spacer auto;
 		}
+	}
+	&-img {
+		display: block;
+		width: 100%; height: auto;
 	}
 }
 .light-blue-box {
@@ -227,10 +235,10 @@ main {
 		
 	}
 	@media screen and ( min-width: 768px ){
-		height: 350px;
+		height: 400px;
 	}
 	@media screen and ( min-width: 1024px ){
-		height: 350px;
+		
 	}
 }
 .white-plusses {
@@ -275,7 +283,7 @@ main {
 		top: 350px;
 	}
 	@media screen and ( min-width: 1024px ){
-		top: 480px; right: -160px;
+		top: 400px; right: -100px;
 	}
 	@media screen and ( min-width: 1280px ){
 		right: -100px;
@@ -330,9 +338,25 @@ main {
 		top: 445px; left: 200px;
 	}
 	@media screen and ( min-width: 1280px ){
-		
+		left: 250px;	
+	}
+}
+.watch {
+	background-image: url('../images/watch.svg');
+	width: 59px; height: 93px;
+	position: absolute;
+	top: 220px; left: 20px;
+	z-index: 10;
+	@media screen and ( min-width: 375px ){
+		top: 240px; left: 60px;
+	}
+	@media screen and ( min-width: 768px ){
+		top: 480px; left: 660px;
+	}
+	@media screen and ( min-width: 1024px ){
+		top: 500px; left: 760px;
 	}
 	@media screen and ( min-width: 1280px ){
-		
+		top: 550px; left: 1050px;
 	}
 }
