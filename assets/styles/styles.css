@@ -130,29 +130,25 @@ main {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  right: -5%;
-  top: 50%;
+  bottom: -32px;
+  right: 10px;
   z-index: 10; }
-  @media screen and (min-width: 499px) {
+  @media screen and (min-width: 375px) {
     .badge {
-      width: 72px;
-      height: 72px;
-      right: -15%;
-      top: 50%; } }
+      bottom: -20px;
+      right: 10px; } }
   @media screen and (min-width: 768px) {
     .badge {
       font-size: 40px;
       width: 96px;
-      height: 96px;
-      right: -20%;
-      top: 45%; } }
+      height: 96px; } }
   @media screen and (min-width: 1024px) {
     .badge {
       font-size: 50px;
       width: 128px;
       height: 128px;
-      right: 5%;
-      top: 50%; } }
+      bottom: -40px;
+      right: 0px; } }
 
 .button-row {
   display: -webkit-box;
@@ -203,7 +199,8 @@ main {
   width: 75%;
   height: 250px;
   bottom: 0;
-  left: 0; }
+  left: 0;
+  z-index: -10; }
   @media screen and (min-width: 768px) {
     .light-blue-box {
       height: 400px; } }
@@ -293,8 +290,8 @@ main {
   width: 59px;
   height: 93px;
   position: absolute;
-  top: 220px;
-  left: 20px;
+  top: 200px;
+  left: 80px;
   z-index: 10; }
   @media screen and (min-width: 375px) {
     .watch {
@@ -312,4 +309,120 @@ main {
     .watch {
       top: 550px;
       left: 1050px; } }
+
+.cube-stripes {
+  position: absolute;
+  width: 228px;
+  height: 175px;
+  z-index: 10;
+  background-image: url("../images/cube-stripes.svg");
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .cube-stripes {
+      display: block;
+      top: 150px;
+      right: 0; } }
+  @media screen and (min-width: 1280px) {
+    .cube-stripes {
+      top: 350px; } }
+
+.roller-drops {
+  position: absolute;
+  width: 188px;
+  height: 178px;
+  top: -20px;
+  right: 20px;
+  z-index: 10;
+  background-image: url("../images/roller-drops.svg");
+  opacity: .5; }
+  @media screen and (min-width: 375px) {
+    .roller-drops {
+      top: -20px; } }
+  @media screen and (min-width: 768px) {
+    .roller-drops {
+      opacity: 1; } }
+
+.glasses {
+  position: absolute;
+  width: 134px;
+  height: 63px;
+  top: 160px;
+  right: 20px;
+  z-index: 10;
+  background-image: url("../images/glasses.svg"); }
+  @media screen and (min-width: 375px) {
+    .glasses {
+      top: 170px;
+      right: 20px; } }
+  @media screen and (min-width: 768px) {
+    .glasses {
+      top: 60px;
+      right: 120px; } }
+  @media screen and (min-width: 1280px) {
+    .glasses {
+      top: 120px;
+      right: 110px; } }
+
+.blast {
+  display: none;
+  position: absolute;
+  width: 231px;
+  height: 484px;
+  top: 380px;
+  left: 0;
+  z-index: 1;
+  background-image: url("../images/blast.svg"); }
+  @media screen and (min-width: 768px) {
+    .blast {
+      display: block;
+      top: -200px;
+      left: 0; } }
+  @media screen and (min-width: 1024px) {
+    .blast {
+      top: 350px;
+      left: -40px; } }
+  @media screen and (min-width: 1280px) {
+    .blast {
+      top: 380px;
+      left: -80px; } }
+
+.phone-circles {
+  display: none;
+  position: absolute;
+  width: 314px;
+  height: 300px;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-image: url("../images/phone-circles.svg");
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 768px) {
+    .phone-circles {
+      display: block;
+      bottom: 10px;
+      left: -50px; } }
+  @media screen and (min-width: 1024px) {
+    .phone-circles {
+      bottom: 85px;
+      left: 0; } }
+
+.sqiggles-blue {
+  width: 150px;
+  height: 484px;
+  position: absolute;
+  display: none;
+  z-index: 1;
+  background-image: url("../images/sqiggles-blue.svg");
+  background-repeat: no-repeat; }
+  @media screen and (min-width: 768px) {
+    .sqiggles-blue {
+      display: block;
+      bottom: 0;
+      right: 0; } }
+  @media screen and (min-width: 1024px) {
+    .sqiggles-blue {
+      bottom: 40px;
+      right: 100px;
+      -webkit-transform: rotate(15deg);
+              transform: rotate(15deg); } }
 /*# sourceMappingURL=styles.css.map */

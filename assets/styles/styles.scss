@@ -135,7 +135,6 @@ body {
 	font-size: $rem;
 	position: relative;
 	padding-bottom: 40px;
-	
 }
 main {
 	z-index: 9999;
@@ -173,21 +172,22 @@ main {
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	right: -5%; top: 50%;
+	bottom: -32px; right: 10px;
 	z-index: 10;
-	@media screen and (min-width: 499px){
-		width: 72px; height: 72px;
-		right: -15%; top: 50%;
+	@media screen and (min-width: 375px){
+		bottom: -20px; right: 10px;
 	}
 	@media screen and (min-width: 768px){
 		font-size: $rem*2;
 		width: 96px; height: 96px;
-		right: -20%; top: 45%;
 	}
 	@media screen and (min-width: 1024px){
 		font-size: $rem*2.5;
 		width: 128px; height: 128px;
-		right: 5%; top: 50%;
+		bottom: -40px; right: 0px;
+	}
+	@media screen and (min-width: 1280px){
+		
 	}
 }
 .button {	
@@ -228,6 +228,7 @@ main {
 	position: absolute;
 	width: 75%; height: 250px;
 	bottom: 0; left: 0;
+	z-index: -10;
 	@media screen and ( min-width: 499px ){
 
 	}
@@ -345,7 +346,7 @@ main {
 	background-image: url('../images/watch.svg');
 	width: 59px; height: 93px;
 	position: absolute;
-	top: 220px; left: 20px;
+	top: 200px; left: 80px;
 	z-index: 10;
 	@media screen and ( min-width: 375px ){
 		top: 240px; left: 60px;
@@ -358,5 +359,114 @@ main {
 	}
 	@media screen and ( min-width: 1280px ){
 		top: 550px; left: 1050px;
+	}
+}
+.cube-stripes {
+	position: absolute;
+	width: 228px; height: 175px;
+	z-index: 10;
+	background-image: url('../images/cube-stripes.svg');
+	display: none;
+	@media screen and ( min-width: 375px ){
+		
+	}
+	@media screen and ( min-width: 768px ){
+		display: block;
+		top: 150px; right: 0;
+	}
+	@media screen and ( min-width: 1024px ){
+		
+	}
+	@media screen and ( min-width: 1280px ){
+		top: 350px;	
+	}
+}
+.roller-drops {
+	position: absolute;
+	width: 188px; height: 178px;
+	top: -20px; right: 20px;
+	z-index: 10;
+	background-image: url('../images/roller-drops.svg');
+	opacity: .5;
+	
+	@media screen and ( min-width: 375px ){
+		top: -20px;
+	}
+	@media screen and ( min-width: 768px ){
+		opacity: 1;
+	}
+}
+.glasses {
+	position: absolute;
+	width: 134px; height: 63px;
+	top: 160px; right: 20px;
+	z-index: 10;
+	background-image: url('../images/glasses.svg');
+	
+	@media screen and ( min-width: 375px ){
+		top: 170px; right: 20px;
+	}
+	@media screen and ( min-width: 768px ){
+		top: 60px; right: 120px;
+	}
+	@media screen and ( min-width: 1280px ){
+		top: 120px; right: 110px;
+	}
+}
+.blast {
+	display: none;
+	position: absolute;
+	width: 231px; height: 484px;
+	top: 380px; left: 0;
+	z-index: 1;
+	background-image: url('../images/blast.svg');
+	@media screen and ( min-width: 768px ){
+		display: block;
+		top: -200px; left: 0;
+	}
+	@media screen and ( min-width: 1024px ){
+		top: 350px; left: -40px;
+	}
+	@media screen and ( min-width: 1280px ){
+		
+		top: 380px; left: -80px;
+	}
+}
+.phone-circles {
+	display: none;	
+	position: absolute;
+	width: 314px; height: 300px;
+	bottom: 0; left: 0;
+	z-index: 1;
+	background-image: url('../images/phone-circles.svg');
+	background-repeat: no-repeat;
+	@media screen and ( min-width: 768px ){
+		display: block;
+		bottom: 10px; left: -50px;
+	}
+	@media screen and ( min-width: 1024px ){
+		bottom: 85px; left: 0;
+	}
+	@media screen and ( min-width: 1280px ){
+		
+	}
+}
+.sqiggles-blue {
+	width: 150px; height: 484px;	
+	position: absolute;
+	display: none;
+	z-index: 1;
+	background-image: url('../images/sqiggles-blue.svg');
+	background-repeat: no-repeat;
+	@media screen and ( min-width: 768px ){
+		display: block;
+		bottom: 0; right: 0;
+	}
+	@media screen and ( min-width: 1024px ){
+		bottom: 40px; right: 100px;
+		transform: rotate(15deg);
+	}
+	@media screen and ( min-width: 1280px ){
+		
 	}
 }
