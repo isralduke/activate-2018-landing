@@ -272,15 +272,10 @@ main {
   background-position: center;
   background-image: url("../images/laptop.svg");
   z-index: 10; }
-  @media screen and (min-width: 499px) {
-    .laptop {
-      top: 345px;
-      bottom: unset;
-      left: 130px; } }
   @media screen and (min-width: 1024px) {
     .laptop {
-      top: 445px;
-      left: 200px; } }
+      top: 400px;
+      left: 280px; } }
   @media screen and (min-width: 1280px) {
     .laptop {
       left: 250px; } }
@@ -334,27 +329,29 @@ main {
   right: 20px;
   z-index: 10;
   background-image: url("../images/roller-drops.svg");
-  opacity: .5; }
-  @media screen and (min-width: 375px) {
-    .roller-drops {
-      top: -20px; } }
+  display: none; }
   @media screen and (min-width: 768px) {
     .roller-drops {
-      opacity: 1; } }
+      display: block; } }
+  @media screen and (min-width: 1280px) {
+    .roller-drops {
+      top: 380px;
+      left: -80px; } }
 
 .glasses {
   position: absolute;
   width: 134px;
   height: 63px;
-  top: 160px;
-  right: 20px;
+  bottom: 50px;
+  left: 20px;
   z-index: 10;
   background-image: url("../images/glasses.svg"); }
-  @media screen and (min-width: 375px) {
-    .glasses {
-      top: 170px;
-      right: 20px; } }
   @media screen and (min-width: 768px) {
+    .glasses {
+      top: 60px;
+      left: 320px;
+      display: block; } }
+  @media screen and (min-width: 1024px) {
     .glasses {
       top: 60px;
       right: 120px; } }
