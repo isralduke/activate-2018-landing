@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext');
+@font-face {
+    font-family: 'pantonregular';
+    src: url('../fonts/panton-regular-webfont.woff2') format('woff2'),
+         url('../fonts/panton-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 // variables
 $blue: #073C5E;
 $orange: #F47621;
@@ -8,6 +18,8 @@ $rem: 20px;
 $spacer: 20px;
 
 $zindex: 10;
+
+
 
 // shared rules
 .position-relative {
@@ -130,6 +142,7 @@ a {
 }
 html, body {
 	overflow-x: hidden;
+	font-family: 'pantonregular', 'Source Sans Pro', Arial, sans-serif;
 }
 body {
 	font-size: $rem;

@@ -93,6 +93,18 @@
 		"oAP": "\/assets\/fonts\/Panton-LightItalic.otf",
 		"oF": 0
 		},
+	"\/assets\/fonts\/panton-regular-webfont.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/panton-regular-webfont.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/panton-regular-webfont.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/panton-regular-webfont.woff2",
+		"oF": 0
+		},
 	"\/assets\/fonts\/Panton-Regular.otf": {
 		"ft": 8192,
 		"oA": 2,
@@ -600,23 +612,15 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/styles\/fonts\/fonts.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/assets\/styles\/fonts\/fonts.html",
+	"\/assets\/styles\/fonts.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/styles\/fonts-min.css",
 		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"oS": 3
 		},
 	"\/assets\/styles\/styles.css": {
 		"aP": 1,

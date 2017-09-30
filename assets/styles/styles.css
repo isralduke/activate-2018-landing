@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin-ext");
+@font-face {
+  font-family: 'pantonregular';
+  src: url("../fonts/panton-regular-webfont.woff2") format("woff2"), url("../fonts/panton-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 .position-relative, .h1, .h2 {
   position: relative; }
 
@@ -84,7 +91,8 @@
     margin-left: auto; } }
 
 html, body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: 'pantonregular', 'Source Sans Pro', Arial, sans-serif; }
 
 body {
   font-size: 20px;
