@@ -14,7 +14,7 @@ Location: Baton Rouge, LA, USA
 
 /* SITE */
 
-Last update: 2017/09/12
+Last update: 2017/09/30
 
 Standards: HTML5, CSS3, SCSS, jQuery, GSAP
 
